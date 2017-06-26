@@ -12,6 +12,8 @@
       background-color: white;
       width: 800px;
       margin-left: auto;
+      margin-right: auto;
+     
     }
    
     #header {
@@ -20,6 +22,30 @@
       text-align: center;
     }
     
+    #content {
+      padding: 10px;
+    }
+    
+    #nav {
+      width: 180px;
+      float: left;
+    }
+    
+    #nav .selected {
+      font-weight: bold;
+    }
+    #nav ul {
+    list-style-type: none;
+      padding: 0;
+    }
+    #main {
+      width: 600px;
+      float: right;  
+    }
+    
+    #footer {
+      clear: both; 
+    }
   </style>
   
   
@@ -33,9 +59,9 @@
         <div id="nav">
           <h3>Navigation</h3> 
           <ul>
-            <li>Home</li>
-            <li>About Me</li>
-            <li>Contact Me</li>
+            <li><a class="selected" href="">Home</li>
+            <li><a href="">About Me</li>
+            <li><a href="">Contact Me</li>
           </ul>
         </div> 
         
